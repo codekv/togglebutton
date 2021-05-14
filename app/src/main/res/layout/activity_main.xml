@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.jackandphantom.customtogglebutton.CustomToggle
+        android:id="@+id/custom"
+        android:layout_width="275dp"
+        android:layout_height="100dp"
+        app:ctg_addLeftIcon="@drawable/ic_arrow_back_black_24dp"
+        app:ctg_addRightIcon="@drawable/ic_arrow_forward_black_24dp"
+        app:ctg_addSlideColor="#E91E2F"
+        app:ctg_addSlideBackgroundColor="#000"
+        app:ctg_addAnimationType="jack_animation"/>
+
+
+</RelativeLayout>
